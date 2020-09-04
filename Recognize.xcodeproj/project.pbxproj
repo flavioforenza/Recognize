@@ -14,6 +14,11 @@
 		725A7B8624AF2A1F003F385A /* Recognize.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 725A7B8424AF2A1F003F385A /* Recognize.xcdatamodeld */; };
 		725A7B8824AF2A20003F385A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 725A7B8724AF2A20003F385A /* Assets.xcassets */; };
 		725A7B8B24AF2A20003F385A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 725A7B8924AF2A20003F385A /* LaunchScreen.storyboard */; };
+		7270B58724E3D1B0004A33D3 /* David Michelangelo Scena.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7270B58624E3D1B0004A33D3 /* David Michelangelo Scena.sks */; };
+		7270B58924E3E9B2004A33D3 /* Spada Dx Scena.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7270B58824E3E9B2004A33D3 /* Spada Dx Scena.sks */; };
+		7283EC4E24B0636100E82648 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7283EC4D24B0636100E82648 /* Model.swift */; };
+		72E248A324C994FF004934F5 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 72E248A224C994FF004934F5 /* art.scnassets */; };
+		72FA1B2224F7FA7200A3F59D /* Quadro Muse Scena.sks in Resources */ = {isa = PBXBuildFile; fileRef = 72FA1B2124F7FA7200A3F59D /* Quadro Muse Scena.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		725A7B8724AF2A20003F385A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		725A7B8A24AF2A20003F385A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		725A7B8C24AF2A20003F385A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7270B58624E3D1B0004A33D3 /* David Michelangelo Scena.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "David Michelangelo Scena.sks"; sourceTree = "<group>"; };
+		7270B58824E3E9B2004A33D3 /* Spada Dx Scena.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Spada Dx Scena.sks"; sourceTree = "<group>"; };
+		7283EC4D24B0636100E82648 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		72E248A224C994FF004934F5 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		72FA1B2124F7FA7200A3F59D /* Quadro Muse Scena.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Quadro Muse Scena.sks"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +70,17 @@
 			children = (
 				725A7B7B24AF2A1F003F385A /* AppDelegate.swift */,
 				725A7B7D24AF2A1F003F385A /* SceneDelegate.swift */,
+				72E248A224C994FF004934F5 /* art.scnassets */,
+				7283EC4D24B0636100E82648 /* Model.swift */,
 				725A7B7F24AF2A1F003F385A /* ViewController.swift */,
 				725A7B8124AF2A1F003F385A /* Main.storyboard */,
 				725A7B8724AF2A20003F385A /* Assets.xcassets */,
 				725A7B8924AF2A20003F385A /* LaunchScreen.storyboard */,
 				725A7B8C24AF2A20003F385A /* Info.plist */,
 				725A7B8424AF2A1F003F385A /* Recognize.xcdatamodeld */,
+				7270B58824E3E9B2004A33D3 /* Spada Dx Scena.sks */,
+				72FA1B2124F7FA7200A3F59D /* Quadro Muse Scena.sks */,
+				7270B58624E3D1B0004A33D3 /* David Michelangelo Scena.sks */,
 			);
 			path = Recognize;
 			sourceTree = "<group>";
@@ -129,6 +144,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				725A7B8B24AF2A20003F385A /* LaunchScreen.storyboard in Resources */,
+				72FA1B2224F7FA7200A3F59D /* Quadro Muse Scena.sks in Resources */,
+				7270B58924E3E9B2004A33D3 /* Spada Dx Scena.sks in Resources */,
+				72E248A324C994FF004934F5 /* art.scnassets in Resources */,
+				7270B58724E3D1B0004A33D3 /* David Michelangelo Scena.sks in Resources */,
 				725A7B8824AF2A20003F385A /* Assets.xcassets in Resources */,
 				725A7B8324AF2A1F003F385A /* Main.storyboard in Resources */,
 			);
@@ -141,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7283EC4E24B0636100E82648 /* Model.swift in Sources */,
 				725A7B8624AF2A1F003F385A /* Recognize.xcdatamodeld in Sources */,
 				725A7B8024AF2A1F003F385A /* ViewController.swift in Sources */,
 				725A7B7C24AF2A1F003F385A /* AppDelegate.swift in Sources */,
