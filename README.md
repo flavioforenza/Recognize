@@ -1,5 +1,4 @@
 # RecognizeProject
-Progetto Mobidev
 
 Due to the large size, please download and paste the following content into the "art.scnassets" folder.
 
